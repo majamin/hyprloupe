@@ -26,7 +26,7 @@
   version ? "git",
 }:
 stdenv.mkDerivation {
-  pname = "hyprpicker" + lib.optionalString debug "-debug";
+  pname = "hyprloupe" + lib.optionalString debug "-debug";
   inherit version;
 
   src = ../.;
@@ -66,10 +66,10 @@ stdenv.mkDerivation {
   ];
 
   meta = with lib; {
-    homepage = "https://github.com/hyprwm/hyprpicker";
+    homepage = "https://github.com/majamin/hyprloupe";
     description = "A wlroots-compatible Wayland color picker that does not suck";
     license = licenses.bsd3;
     platforms = platforms.linux;
-    mainProgram = "hyprpicker";
+    mainProgram = "hyprloupe";
   };
 }

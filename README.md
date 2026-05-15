@@ -1,8 +1,10 @@
 # hyprloupe
 
+Based on [hyprpicker](https://github.com/hyprwm/hyprpicker).
+
 A screen loupe (magnifier) for wlroots-based Wayland compositors, with built-in color picking.
 
-![hyprloupe demo](https://user-images.githubusercontent.com/43317083/188224867-7d77a3b3-0a66-488c-8019-39b00060ab42.gif)
+<video src="demo.mp4" autoplay loop muted playsinline></video>
 
 ## Usage
 
@@ -69,10 +71,6 @@ Does not currently support KDE (KWin) or GNOME (Mutter).
 
 hyprloupe is a fork of [hyprpicker](https://github.com/hyprwm/hyprpicker) by Hypr Development,
 used under the BSD 3-Clause License. The original copyright notice is preserved in [LICENSE](LICENSE).
-
-Changes from hyprpicker:
-- Added `-D / --dim` flag to dim the area outside the loupe
-- Reframed as a general-purpose loupe/magnifier with color picking as a secondary feature
 
 ## License
 
