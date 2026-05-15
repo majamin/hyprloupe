@@ -4,7 +4,7 @@ Based on [hyprpicker](https://github.com/hyprwm/hyprpicker).
 
 A screen loupe (magnifier) for wlroots-based Wayland compositors, with built-in color picking.
 
-<video src="demo.mp4" autoplay loop muted playsinline></video>
+[Watch demo](demo.mp4)
 
 ## Usage
 
